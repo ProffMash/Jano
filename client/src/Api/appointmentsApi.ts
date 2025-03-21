@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/api/appointments/';
+const API_URL = 'https://janoapi.onrender.com/api/appointments/';
 
 export interface Appointment {
     id?: number;

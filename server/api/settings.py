@@ -25,12 +25,12 @@ SECRET_KEY = 'django-insecure-&#wjh(zdq2(qi+n99)n4kyytvx2ddpro=cyxf5p2@c9)ah3l-a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['harars.onrender.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['janoapi.onrender.com', '127.0.0.1', 'localhost']
 
 CORS_ALLOWED_ORIGINS = [
    'http://localhost:5173',
-   'https://hararhospital.vercel.app',
-   'https://harars.onrender.com',
+   'https://janomedclinic.vercel.app',
+   'https://janoapi.onrender.com',
 ]
 
 CORS_ALLOW_HEADERS = [
